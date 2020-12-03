@@ -1,7 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     text-align: center;
     font-variant: small-caps;
-    background: Linear-gradient(#F48FB1 0%, #90CAF9 100%);
+    background: Linear-gradient(#F48FB1 20%, #90CAF9 100%);
     font-family: 'Sansita Swashed', cursive;
     font-style: italic;
 }
@@ -15,7 +19,7 @@ img {
     border-radius: 50%;
 }
 
-#styling {
+#about {
     font-family: monospace;
     font-variant: none;
     margin-bottom: 0px;
@@ -51,17 +55,44 @@ p {
 
 .links {
     color: blue;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 130px;
     float: left;
+    background-color: lightgoldenrodyellow;
 }
 
 .links:hover {
-    background-color: white;
+    background-color: aliceblue;
 }
 
-h2{
+h2 {
     font-size: 20px;
     font-style: italic;
     font-weight: bold;
+}
+
+.styling {
+    text-decoration: none;
+}
+
+.heading {
+    color: darkcyan;
+}
+
+.line {
+    height: 4px;
+    width: 70px;
+    margin: 8px auto;
+    background-color: #000000;
+}
+
+#info {
+    background-color: bisque;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
